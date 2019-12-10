@@ -10,9 +10,8 @@
     "node-gyp": "^6.0.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run server",
     "server": "node server.js",
-    "client": "cd .. && npm start",
     "dev": "echo \"This command has been deprecated. Use 'npm start'\" && exit 1",
     "lint": "eslint ."
   },
